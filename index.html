@@ -48,7 +48,7 @@
     .image-row {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: center;
       gap: 40px;
       margin-bottom: 50px;
     }
@@ -59,8 +59,7 @@
     }
 
     .image-box img {
-      width: 100%;
-      transform: scale(1.4);
+      width: 140%;
       max-width: 100%;
       height: auto;
       border-radius: 12px;
@@ -87,9 +86,8 @@
     }
 
     .center-images img {
-      width: 100%;
+      width: 45%;
       max-width: 400px;
-      transform: scale(1.4);
       height: auto;
       border-radius: 12px;
       box-shadow: 0 5px 20px rgba(0,0,0,0.15);
@@ -107,6 +105,13 @@
       color: #333;
       margin: 0 5px;
       text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      .image-box img,
+      .center-images img {
+        width: 100%;
+      }
     }
   </style>
 </head>
