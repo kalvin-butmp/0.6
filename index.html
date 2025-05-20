@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mesures Physiques - AMU</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f0f0f0;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .header-logos, .social-logos {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-mp, .logo-amu, .social-logo {
+      height: 50px;
+    }
+
+    .bandeau-image img {
+      width: 100%;
+      height: auto;
+    }
+
+    main {
+      padding: 40px;
+    }
+
+    .intro {
+      font-size: 20px;
+      color: #000;
+      margin-bottom: 40px;
+    }
+
+    .image-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 40px;
+      margin-bottom: 50px;
+    }
+
+    .image-box {
+      flex: 1 1 45%;
+      text-align: center;
+    }
+
+    .image-box img {
+      width: 100%;
+      transform: scale(1.4);
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    }
+
+    .caption {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .title-center {
+      text-align: center;
+      font-size: 28px;
+      color: #000;
+      margin: 40px 0 30px;
+    }
+
+    .center-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .center-images img {
+      width: 100%;
+      max-width: 400px;
+      transform: scale(1.4);
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      padding: 30px;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 60px;
+    }
+
+    footer a {
+      color: #333;
+      margin: 0 5px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="header-logos">
+    <img src="mp-logo.png" alt="Logo MP" class="logo-mp">
+    <h1>Département Mesure Physique - Aix Marseille Université</h1>
+    <img src="amu-logo.png" alt="Logo AMU" class="logo-amu">
+  </div>
+  <div class="social-logos">
+    <a href="#"><img src="logoinsta.png" class="social-logo" alt="Instagram"></a>
+    <a href="#"><img src="logofacebook.png" class="social-logo" alt="Facebook"></a>
+  </div>
+</header>
+
+<!-- Bandeau -->
+<div class="bandeau-image">
+  <img src="bandeau.jpg" alt="Image Bandeau">
+</div>
+
+<!-- Main Content -->
+<main>
+  <p class="intro">
+    Voici des documents et images résumant l’avancement et la finalité du projet.
+  </p>
+
+  <div class="image-row">
+    <div class="image-box">
+      <img src="doc1.jpg" alt="doc1">
+      <p class="caption">Constitution électrique d’une enceinte</p>
+    </div>
+    <div class="image-box">
+      <img src="doc2.jpg" alt="doc2">
+      <p class="caption">Premier design de l’enceinte</p>
+    </div>
+  </div>
+
+  <h2 class="title-center">Deux images complémentaires</h2>
+
+  <div class="center-images">
+    <img src="doc3.jpg" alt="doc3">
+    <img src="doc4.jpg" alt="doc4">
+  </div>
+</main>
+
+<!-- Footer -->
+<footer>
+  <div>
+    <a href="#">Conditions d'utilisation</a> |
+    <a href="#">Mentions légales</a> |
+    <a href="#">Politique de confidentialité</a> |
+    <a href="#">Contact</a>
+  </div>
+  <p>Adresse : 123 Avenue Imaginaire, 13000 Marseille</p>
+  <p>Téléphone : +33 4 12 34 56 78 | Email : contact@mesurephysiqueamu.fr</p>
+  <p>&copy; 2025 ACRTI Mesure Physique - Aix Marseille Université. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
